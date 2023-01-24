@@ -1,7 +1,7 @@
 secure_ingress:
   name: dashboard-ingress
   backendIsHttps: true
-  ipWhitelist: 47.196.14.245/32
+  ipWhitelist: 47.200.162.242/32
   hosts:
     - name: infra-craigmiller160.ddns.net
       services:
