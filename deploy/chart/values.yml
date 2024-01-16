@@ -3,7 +3,7 @@ secure_ingress:
   backendIsHttps: true
   ipWhitelist: 47.196.38.229/32
   hosts:
-    - name: infra-craigmiller160.ddns.net
+    - name: infra.craigmiller160.us
       services:
         - path: /dashboard/(.*)
           serviceName: kubernetes-dashboard
